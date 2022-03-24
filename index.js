@@ -33,7 +33,7 @@ const CLAIM_LIMIT_AETHER_COST = 1041.0203; // 100000 limit
 const SIG_PROVIDER = new JsSignatureProvider(PRIVATE_KEY);
 // see here for other endpoints
 // https://wax.eosio.online/endpoints
-const RPC = new JsonRpc("https://wax.eosusa.news/", { fetch });
+const RPC = new JsonRpc("https://api.waxsweden.org/", { fetch });
 const API = new Api({
   rpc: RPC,
   signatureProvider: SIG_PROVIDER,
