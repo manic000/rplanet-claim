@@ -26,7 +26,7 @@ const { JsSignatureProvider } = require("eosjs/dist/eosjs-jssig");
 const fetch = require("node-fetch");
 const { TextDecoder, TextEncoder } = require("util");
 const cron = require("node-cron");
-const RPC = new JsonRpc("https://wax.eosusa.news/", { fetch });
+const RPC = new JsonRpc("https://api.waxsweden.org/", { fetch });
 
 const API = new Api({
   rpc: RPC,
